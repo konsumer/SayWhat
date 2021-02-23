@@ -26,7 +26,7 @@ The idea would be that you can request an entry point and then just step through
 
 ## The Language
 
-SayWhat has it's own [DSL](https://en.wikipedia.org/wiki/Domain-specific_language), that is unconcerned with how you will be using it. This means with one editor & language, you can edit the dialogs for any game engine/framework (as long as you setup a loader on tat end.)
+SayWhat has it's own [DSL](https://en.wikipedia.org/wiki/Domain-specific_language), that is unconcerned with how you will be using it. This means with one editor & language, you can edit the dialogs for any game engine/framework (as long as you setup a loader on that end.)
 
 ### Bindings
 
@@ -50,7 +50,8 @@ All lines can be either `<CHARACTER>: message`, where `<CHARACTER>` is the name 
 
 ```
 Character: Hello!
-[if has_met_character] Character: It's nice to meet you.
+[if !has_met_character] Character: It's nice to meet you.
+
 # This is a comment
 [do has_met_character = true]
 
