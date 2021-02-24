@@ -32,7 +32,7 @@ SayWhat has it's own [DSL](https://en.wikipedia.org/wiki/Domain-specific_languag
 
 ### Bindings
 
-SayWhat has currently only has ready-made [bindings for Godot](https://github.com/nathanhoad/saywhat_godot), but the format is simple enough you should be abel to use it with anything, using JSON/XML. Even with the [Godot bindings](https://github.com/nathanhoad/saywhat_godot), you will still need to set up how it is displayed, but it makes it much easier to use.
+SayWhat currently only has ready-made [bindings for Godot](https://github.com/nathanhoad/saywhat_godot), but the format is simple enough you should be able to use it with anything, using JSON/XML. Even with the [Godot bindings](https://github.com/nathanhoad/saywhat_godot), you will still need to set up how it is displayed, but it makes it much easier to use.
 
 You can see a nice demo of usage, using Godot, [here](https://youtu.be/mmUxl46h24M)
 
